@@ -1,0 +1,84 @@
+{
+  "suggestions": [
+    {
+      "street_line": "960 Pine St",
+      "secondary": "Apt",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipcode": "94108",
+      "entries": 12
+    },
+    {
+      "street_line": "960 Pine St",
+      "secondary": "",
+      "city": "Burlington",
+      "state": "VT",
+      "zipcode": "05401",
+      "entries": 0
+    },
+    {
+      "street_line": "960 Pine St",
+      "secondary": "",
+      "city": "Camden",
+      "state": "NJ",
+      "zipcode": "08103",
+      "entries": 0
+    },
+    {
+      "street_line": "960 Pine St",
+      "secondary": "",
+      "city": "Kulpmont",
+      "state": "PA",
+      "zipcode": "17834",
+      "entries": 0
+    },
+    {
+      "street_line": "960 Pine St",
+      "secondary": "",
+      "city": "Lawrence Township",
+      "state": "NJ",
+      "zipcode": "08648",
+      "entries": 0
+    },
+    {
+      "street_line": "960 Pine St NE",
+      "secondary": "",
+      "city": "Conyers",
+      "state": "GA",
+      "zipcode": "30012",
+      "entries": 0
+    },
+    {
+      "street_line": "960 Pine St",
+      "secondary": "",
+      "city": "Negaunee",
+      "state": "MI",
+      "zipcode": "49866",
+      "entries": 0
+    },
+    {
+      "street_line": "960 Pine St",
+      "secondary": "",
+      "city": "New Braunfels",
+      "state": "TX",
+      "zipcode": "78130",
+      "entries": 0
+    },
+    {
+      "street_line": "960 Pine St",
+      "secondary": "",
+      "city": "Saint Charles",
+      "state": "MO",
+      "zipcode": "63301",
+      "entries": 0
+    },
+    {
+      "street_line": "960 Pine St",
+      "secondary": "",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipcode": "94108",
+      "entries": 0
+    }
+  ]
+}
