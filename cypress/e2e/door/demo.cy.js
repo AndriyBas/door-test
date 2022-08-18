@@ -6,7 +6,7 @@ describe("Input test", () => {
   });
 
   it("displays the placeholder by default", () => {
-    cy.get("input.autocomplete-input#autocomplete2").should(
+    cy.get("#autocomplete2").should(
       "have.attr",
       "placeholder",
       "Enter your property address"
@@ -14,18 +14,27 @@ describe("Input test", () => {
   });
 
   it("Should display multi-apartment address '960 pine str'", () => {
-    cy.get("input.autocomplete-input#autocomplete2").type("960 pine str");
+    cy.get("#autocomplete2").type("960 pine str");
 
     cy.get("ul.autocomplete-menu li div")
       .first()
       .invoke("text")
       .should("match", /\d+ more entries/i);
 
-    cy.get("ul.autocomplete-menu li div").first().parent().click().wait(1000);
+    cy.get("#autocomplete2+ul")
+      .contains("li", "more entries")
+      .click()
+      .wait(1000);
 
     cy.get("ul.autocomplete-menu li div")
       .first()
       .invoke("text")
+      .should("match", /960 Pine St Apt \d+ San Francisco/i);
+
+    cy.get("#autocomplete2+ul li").first().click();
+
+    cy.get("#autocomplete2")
+      .invoke("val")
       .should("match", /960 Pine St Apt \d+ San Francisco/i);
   });
 });
