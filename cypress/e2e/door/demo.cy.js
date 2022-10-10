@@ -14,7 +14,7 @@ describe("Input test", () => {
     });
   });
 
-  it("displays the placeholder by default", () => {
+  it("Displays the placeholder by default", () => {
     cy.get("#autocomplete2").should(
       "have.attr",
       "placeholder",
