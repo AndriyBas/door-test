@@ -23,6 +23,7 @@ describe("Input test", () => {
   });
 
   it("Should display multi-apartment address '960 pine str'", () => {
+    // used this address cos it's multi-apartment
     cy.get("#autocomplete2").type("960 pine str");
     cy.get("ul.autocomplete-menu li div")
       .first()
